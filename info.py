@@ -36,7 +36,7 @@ DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://dilipdewasi7759:<NMzFk
 DATABASE_NAME = environ.get('DATABASE_NAME', "ssdmovies")
 FILE_DB_URL = environ.get("FILE_DB_URL", DATABASE_URL)
 FILE_DB_NAME = environ.get("FILE_DB_NAME", DATABASE_NAME)
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ssdmovies')
 
 # Filters Configuration 
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
